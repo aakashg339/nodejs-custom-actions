@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# GitHub JavaScript custom action
+!.github/actions/js-custom-action/dist/
+!.github/actions/js-custom-action/dist/index.js
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
