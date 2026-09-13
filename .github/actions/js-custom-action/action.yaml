@@ -2,4 +2,4 @@ name: js-custom-action
 description: a simple js custom action example
 runs:
   using: node24
-  main: main.js
+  main: dist/index.js
