@@ -20,6 +20,8 @@ jobs:
         uses: actions/checkout@v6
       - name: using my custom action for install and cache deps
         uses: ./.github/actions/installing-caching-deps
+        with:
+          caching: 'false'
       - name: Test code
         id: run-tests
         run: npm run test
